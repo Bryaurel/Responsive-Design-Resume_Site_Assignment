@@ -1,7 +1,9 @@
 /* Style for the landing page */
 header {
     text-align: center;
-    background-color: #333;
+    background-image: url('Images/image1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     color: #fff;
     padding: 20px;
 }
