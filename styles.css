@@ -15,12 +15,12 @@ header {
 
 #left-up {
     text-align: left;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 #left-down {
     text-align: left;
-    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 h1 {
