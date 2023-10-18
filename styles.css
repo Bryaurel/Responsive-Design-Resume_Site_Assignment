@@ -1,12 +1,24 @@
 /* Style for the landing page */
 header {
-    text-align: center;
-    background-image: url('Images/image1.jpg');
+    background-image: url('Images/Landpage.png.png');
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
     height: 100vh;
-    width: 100%;
+    width: 98%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#left-up {
+    text-align: left;
+}
+
+#left-down {
+    text-align: left;
 }
 
 h1 {
