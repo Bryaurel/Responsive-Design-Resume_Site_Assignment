@@ -1,6 +1,6 @@
 /* Style for the landing page */
 header {
-    background-image: url('Images/MY\ PORTFOLIO.mp4');
+    background-image: url('Images/WebDev2.png');
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
@@ -12,6 +12,16 @@ header {
     justify-content: space-between;
     align-items: flex-start;
 }
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Put the video in background */
+}
+
 
 #left-up {
     text-align: left;
