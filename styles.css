@@ -23,14 +23,14 @@ video {
 }
 
 
-#left-up {
+.left-up {
     text-align: left;
     margin-top: 50px;
 }
 
-#left-down {
+.left-down {
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 1px
 }
 
 h1 {
