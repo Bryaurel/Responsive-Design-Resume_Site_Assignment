@@ -1,6 +1,6 @@
 /* Style for the landing page */
 header {
-    background-image: url('Images/WebDev2.png');
+    background-image: url('Images/WebDev3.png');
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
@@ -25,12 +25,14 @@ video {
 
 .left-up {
     text-align: left;
-    margin-top: 50px;
+    margin-top: 40px;
+    padding-left: 50px;
 }
 
 .left-down {
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 130px;
+    padding-left: 50px;
 }
 
 h1 {
