@@ -35,6 +35,9 @@ video {
     padding-left: 50px;
 }
 
+.about {
+    background-color: rgb(7, 7, 75);
+}
 h1 {
     font-size: 36px;
     margin: 0;
