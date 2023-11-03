@@ -35,9 +35,23 @@ video {
     padding-left: 50px;
 }
 
-.about {
+#about {
     background-color: rgb(7, 7, 75);
+    padding: 20px;
 }
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+img {
+    max-height: 100%;
+    max-width: 50%;
+}
+
 h1 {
     font-size: 36px;
     margin: 0;
