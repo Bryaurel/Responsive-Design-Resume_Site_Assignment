@@ -34,11 +34,12 @@ header {
     padding: 20px;
     color: white;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .about-content {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
@@ -47,14 +48,12 @@ header {
 .about-text {
     margin-left: 40px;
     margin-right: 60px;
+    flex: 1;
 }
 
 img {
     max-height: 100%;
     max-width: 50%;
-    margin-top: 50px;
-    margin-bottom: 35px;
-    padding-left: 30px;
     border-radius: 15px;
 }
 
