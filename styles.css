@@ -33,10 +33,11 @@ header {
     background-color: rgb(20, 20, 41);
     padding: 20px;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .about-content {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +45,6 @@ header {
 }
 
 .about-text {
-    margin-bottom: 40px;
     margin-left: 40px;
     margin-right: 60px;
 }
