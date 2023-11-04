@@ -29,6 +29,10 @@ video {
     padding-left: 50px;
 }
 
+.text-color {
+    color: rgb(20, 20, 41);
+}
+
 .left-down {
     text-align: left;
     margin-bottom: 130px;
@@ -36,7 +40,7 @@ video {
 }
 
 #about {
-    background-color: rgb(7, 7, 75);
+    background-color: rgb(20, 20, 41);
     padding: 20px;
 }
 
@@ -53,6 +57,11 @@ img {
 }
 
 h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+h2 {
     font-size: 36px;
     margin: 0;
 }
