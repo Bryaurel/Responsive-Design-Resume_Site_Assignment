@@ -35,13 +35,14 @@ video {
 
 .left-down {
     text-align: left;
-    margin-bottom: 130px;
+    margin-bottom: 90px;
     padding-left: 50px;
 }
 
 #about {
     background-color: rgb(20, 20, 41);
     padding: 20px;
+    counter-reset: white;
 }
 
 .about-content {
