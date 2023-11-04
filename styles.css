@@ -52,7 +52,7 @@ img {
     max-height: 100%;
     max-width: 50%;
     margin-top: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     padding-left: 30px;
     border-radius: 15px;
 }
@@ -91,8 +91,7 @@ li {
 }
 
 .large-I {
-    font-size: 24px;
-    ;
+    font-size: 36px;
 }
 
 a {
