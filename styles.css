@@ -43,9 +43,9 @@ header {
 }
 
 .about-text {
-    margin-bottom: 250px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-bottom: 300px;
+    margin-left: 40px;
+    margin-right: 60px;
 }
 
 img {
@@ -91,7 +91,7 @@ li {
 }
 
 .large-I {
-    font-size: 36px;
+    font-size: 50px;
 }
 
 a {
