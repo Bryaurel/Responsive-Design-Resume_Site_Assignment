@@ -43,20 +43,18 @@ header {
     align-items: flex-start;
 }
 
-.about-content-2 {
-    display: flex;
-    font-size: 67px;
-    
-}
-
 .about-text {
     margin-left: 20px;
+    margin-right: 50px;
     flex: 1;
 }
 
 img {
     max-height: 100%;
     max-width: 50%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 25px;
     border-radius: 15px;
 }
 
