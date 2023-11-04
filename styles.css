@@ -45,8 +45,6 @@ header {
 
 .about-content-2 {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     
 }
 
