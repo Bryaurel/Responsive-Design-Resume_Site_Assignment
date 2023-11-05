@@ -10,3 +10,20 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+window.addEventListener('scroll', function () {
+    const card = document.querySelector('.card');
+    const aboutSection = document.getElementById('about');
+
+    
+    const aboutSectionTop = aboutSection.offsetTop;
+    const aboutSectionHeight = aboutSection.clientHeight;
+    const scrollPosition = window.scrollY;
+
+    
+    if (scrollPosition > aboutSectionTop + aboutSectionHeight * 0.7) {
+        card.classList.remove('hidden');
+    } else {
+        card.classList.add('hidden');
+    }
+});

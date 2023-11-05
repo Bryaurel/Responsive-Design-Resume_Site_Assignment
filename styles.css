@@ -131,6 +131,14 @@ a:hover {
     color: rgb(20, 20, 41);
 }
 
+.card {
+    display: block;
+}
+
+.card.hidden {
+    display: none;
+}
+
 
 /* For screens smaller than 600px (mobile) */
 @media (max-width: 600px) {
