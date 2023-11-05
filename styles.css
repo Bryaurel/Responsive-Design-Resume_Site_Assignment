@@ -31,6 +31,7 @@ header {
 
 #about {
     background-color: rgb(20, 20, 41);
+    width: 100%;
     padding: 20px;
     color: white;
     align-items: center;
