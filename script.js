@@ -11,19 +11,37 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-window.addEventListener('scroll', function () {
-    const card = document.querySelector('.card');
-    const aboutSection = document.getElementById('about');
+// Détection du défilement vers le haut ou vers le bas
+let currentIndex = 0;
 
-    
-    const aboutSectionTop = aboutSection.offsetTop;
-    const aboutSectionHeight = aboutSection.clientHeight;
-    const scrollPosition = window.scrollY;
+document.addEventListener('scroll', function (e) {
+    const aboutContent = document.querySelector('.about-content');
+    const cards = document.querySelectorAll('.card');
+    const cardText = document.querySelectorAll('.card p');
 
-    
-    if (scrollPosition > aboutSectionTop + aboutSectionHeight * 0.7) {
-        card.classList.remove('hidden');
+    if (window.scrollY < aboutContent.offsetTop) {
+        currentIndex = 0; // Afficher l'introduction
+    } else if (window.scrollY < cards[1].offsetTop) {
+        currentIndex = 1; // Afficher les compétences
     } else {
-        card.classList.add('hidden');
+        currentIndex = 2; // Afficher le dernier texte
     }
+
+    // Mettre à jour l'opacité de l'introduction
+    const aboutText = document.querySelector('.about-text');
+    aboutText.style.opacity = currentIndex === 0 ? 1 : 0;
+
+    // Appliquer la rotation aux cartes
+    cards.forEach((card, index) => {
+        if (index === currentIndex) {
+            card.style.transform = 'rotateY(0deg)';
+        } else {
+            card.style.transform = 'rotateY(180deg)';
+        }
+    });
+
+    // Afficher le paragraphe approprié
+    cardText.forEach((text, index) => {
+        text.style.display = index === currentIndex ? 'block' : 'none';
+    });
 });
